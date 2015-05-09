@@ -32,13 +32,13 @@ install.packages('snow')
 
 ### if you have git
 
-clone the git test repository with `git clone git@github.com:floswald/mpitest.git` on the hpc. 
+clone the git test repository with `git clone git@github.com:floswald/parallelTest.git` on the hpc. 
 
 ### alternatively download the repository
 
 to a folder on the hpc. 
 
-1. go to `mpitest/R/singleThread/flos-test/` and 
+1. go to `parallelTest/R/singleThread/flos-test/` and 
 2. type `make` and hit enter. 
 3. if everything was installed correctly a test will use 3 nodes and do some things. 
 4. check the file `exp.Rout` for correct output.
